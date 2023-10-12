@@ -15,7 +15,7 @@ Type 2 diabetes is largely preventable through lifestyle modifications and in ma
 Using predictive modeling to understand the risk factors most indicative of Type 2 diabetes can aid in targeting management strategies which can significantly reduce the prevalence and impact of this disease.
 
 ## Project Process
-- **Exploratory Data Analysis**
+- ### **Exploratory Data Analysis**
 The data was analysed with python and tableau to gain insights and understanding of the data and variable relationships. Visualizations include the below:
 
 ![Dashboard](images/diabetes_distribution_dashboard.png)
@@ -24,12 +24,12 @@ The data was analysed with python and tableau to gain insights and understanding
 
 ![Correlation](images/Correlation.png)
 
-- **Modeling**
+- ### **Modeling**
 3 models were fitted using Logistic Regression, Random Forest Classifier and Decision Tree Classifier. The main focus was to have a model with reasonable recall - *Out of all instances that are diabetes, how many can the model accurately identify as diabetic?* 
 
 The Logistic Regression model had the highest recall and accuracy and the Decision Tree model had the lowest.
 
-- **Results**
+- ### **Results**
 The factors identified as most predictive of diabetes are shown in the figure below:
 
 ![Feature Importance](images/feature_importance.png)
@@ -37,7 +37,7 @@ The factors identified as most predictive of diabetes are shown in the figure be
 BMI has the highest predictive importance, followed by Age.
 
 ## Challenges
--The first dataset was very imbalanced and provided poor results with the models, I had to repeat my processes with a modified dataset that had better data balance.
+- The first dataset was very imbalanced and provided poor results with the models, I had to repeat my processes with a modified dataset that had better data balance.
 
 ## Future Goals
 - Exploring more highly correlated risk factors such as genetics, eyesight, blood sugar and possibly more data and techniques to create a better model.
